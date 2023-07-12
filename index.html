@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
    <div class="container">
     <div class="part1">
     <div class="sec1">
@@ -26,7 +27,9 @@
             starting point to evaluate your overall healthy and well-being.</p>
     </div>
     <div class="sec2">
-        <h4>Enter your details below</h4>
+        
+        <br> <div class="Welcome"><span class="we">Welcome!</span><br>Enter your height and weight and you'll see your BMI result here
+        </div>
         <br>
         <form>
             <label>
@@ -43,13 +46,16 @@
               <div class="te">
                 <div class="t1">
               <label for="">height</label><br>
-              <input type="text" name="height" id="height" placeholder="0                                   cm"><br></div>
+              <input type="number" name="height" id="height" placeholder="cm"><br></div>
               <div class="t1">
               <label for="">weight</label><br>
-              <input type="text" name="weight" id="weight" placeholder="0                                    kg"><br></div>
+              <input type="number" name="weight" id="weight" placeholder="kg"><br></div>
+              <div class="button">
+                <button type="submit" id="submit"> check</button>
             </div>
-               <br><br><button type="submit" id="submit"><span class="we">Welcome!</span><br>Enter your height and weight and you'll see your BMI result here
-               </button>
+            </div>
+           
+        <p id="output"></p>
         </form>
     </div>
 </div>
